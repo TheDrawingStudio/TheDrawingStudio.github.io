@@ -17,14 +17,14 @@ namespace TheDrawingStudio.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "This website is to host my skills as a Software Developer and Hobby-Artist.";
 
             return View();
         }
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "Please contact me via email";
 
             return View();
         }
